@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:coral;
+}
+
+form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.input-group{
+    padding: 10px;
+    display: block;
+}
+
+label{
+    font-size: 25px;
+    color:beige;
+    display: block;
+}
+input,select{
+display:block;
+width: 100%;
+padding: 5px;
+margin-top: 10px;
+}
+
+input::placeholder{
+    padding-left: 20px;
+    font-weight: 500;
+}
+button{
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
